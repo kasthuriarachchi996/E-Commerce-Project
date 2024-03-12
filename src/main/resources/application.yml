@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    password: P@980870464v
+    url: jdbc:postgresql://localhost:5432/E-Commerce-Project
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+    database: postgresql
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+
